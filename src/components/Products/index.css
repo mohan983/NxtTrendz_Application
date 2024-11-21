@@ -1,0 +1,14 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 10vh;
+}
+
+@media screen and (max-width: 768px){
+  .product-sections{
+    padding-top: 20vh;
+  }
+}
